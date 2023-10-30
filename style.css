@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --ff-primary: "Roboto", sans-serif;
+    --text-color: #303030;
+
+    --hue: 194;
+    --primary-color: hsl(var(--hue), 100%, 63%);
+}
+
+body {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: #000000;
+}
+
+body * {
+    font-family: var(--ff-primary);
+}
+
+.app {
+    max-width: 112rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 5rem;
+
+    margin: 2.5rem 0;
+}
+
+header img {
+    height: 3.2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    height: 100%;
+}
+
+.search input {
+    width: 46.2rem;
+    height: 4.8rem;
+    padding: 1.6rem;
+
+    border: none;
+    border-radius: .5rem;
+    background: #06181C;
+    color: #E1E1E6;
+
+    font-family: "Roboto", sans-serif;
+}
+
+.search input::placeholder {
+    font-family: "Roboto", sans-serif;
+    color: #7C7C8A;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.search button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    width: 17rem;
+    height: 4.8rem;
+
+    border: none;
+    background-color: #065E7C;
+    border-radius: .5rem;
+
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+.search button img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.search button:hover {
+    filter: brightness(1.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table * {
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+    color: #E1E1E6;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+table th {
+    padding: 1.5rem;
+
+    background-color: #092D38;
+
+    text-align: left;
+    font-weight: normal;
+}
+
+table th:first-child {
+    border-top-left-radius: 1.2rem;
+}
+
+table th:last-child {
+    border-top-right-radius: 1.2rem;
+}
+
+tr th:first-child,
+tr td:first-child {
+    padding-left: 4rem;
+}
+
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 1.2rem;
+}
+
+tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 1.2rem;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(6, 22, 27, 0.50);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #06181C;
+}
+
+td {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+td.user {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+td.user img {
+    width: 5rem;
+    height: 5rem;
+
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+td.user a {
+    text-decoration: none;
+}
+
+td.user a p {
+    font-weight: bold;
+}
+
+td .remove {
+    background-color: transparent;
+    border: none;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 160%;
+    color: #F75A68;
+
+    cursor: pointer;
+}
