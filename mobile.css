@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    .app {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+
+        min-width: 37rem;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .search{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .search input {
+        width: min(35rem, 100%);
+    }
+
+    .search input::placeholder {
+        font-size: 1.2rem;
+    }
+
+    .search button{
+        width: min(17rem, 100%);
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    table th {
+        padding: 1rem;
+    }
+
+    tr th:first-child,
+    tr td:first-child {
+        padding-left: 1rem;
+    }
+
+    td.user img {
+        min-width: min(1rem, 100%);
+        height: min(1rem, 100%);
+
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 460px){
+    tr th:nth-child(3), tr td:nth-child(3){
+        display: none;
+    }   
+}
