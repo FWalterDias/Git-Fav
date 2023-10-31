@@ -143,25 +143,17 @@ table th {
     font-weight: normal;
 }
 
-table th:first-child {
+thead th:first-child {
     border-top-left-radius: 1.2rem;
 }
 
-table th:last-child {
+thead th:last-child {
     border-top-right-radius: 1.2rem;
 }
 
 tr th:first-child,
 tr td:first-child {
     padding-left: 4rem;
-}
-
-tbody tr:last-child td:last-child {
-    border-bottom-right-radius: 1.2rem;
-}
-
-tbody tr:last-child td:first-child {
-    border-bottom-left-radius: 1.2rem;
 }
 
 tbody tr:nth-child(odd) {
