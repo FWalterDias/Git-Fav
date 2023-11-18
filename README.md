@@ -40,12 +40,13 @@ O projeto segue uma estrutura baseada em programação orientada a objetos utili
 ## Agradecimentos
 Este projeto foi desenvolvido como parte da formação Explorer na Rocketseat, baseado em conceitos aprendidos durante as aulas.
 
+# Previews
 
-# Desktop
+## Desktop
 ![git-fav](https://github.com/FWalterDias/Git-Fav/assets/100762742/16f6bb8f-a53c-4566-a2b7-bf6402f2bf97)
 
-# Mobile
+## Mobile
 ![git-fav-prev-1](https://github.com/FWalterDias/Git-Fav/assets/100762742/2e82c678-636a-4468-9727-09261af47a82)
 
-# Validação
+## Validação
 ![git-fav-prev-2](https://github.com/FWalterDias/Git-Fav/assets/100762742/64700473-695c-40e2-b1a0-5123c18496c0)
